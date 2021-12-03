@@ -1,1 +1,8 @@
-<h1>test<h1>
+POST http://localhost:3000/add-new-post
+Content-Type: application/json
+
+{
+    "Book": "Alice's Adventures in Wonderland",
+    "Name": "Shyam",
+    "Date": "05/07/2021"
+}
